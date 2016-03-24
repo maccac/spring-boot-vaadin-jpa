@@ -61,6 +61,7 @@ public class CustomerUI extends UI {
 
         final VerticalLayout layout = new VerticalLayout();
         layout.addComponents(toolbar, main);
+        layout.setSpacing(true);
         grid.setColumns("firstName", "lastName", "email");
         updateCustomerList();
 
