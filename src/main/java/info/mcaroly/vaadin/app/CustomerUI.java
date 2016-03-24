@@ -16,7 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.servlet.annotation.WebServlet;
 
 @SpringUI
-@Theme("valo")
+@Theme("mytheme")
 public class CustomerUI extends UI {
 
     private final CustomerService customerService;
